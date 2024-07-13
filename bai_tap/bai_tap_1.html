@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Tập 1</title>
+</head>
+<body>
+<h2>Điểm Sinh Viên</h2>
+<table style="border-collapse: collapse; vertical-align: top">
+    <tr>
+        <th>Vật lý</th>
+        <th><input type="number" id='Psychology'></th>
+    </tr>
+    <tr>
+        <th>Hóa Học</th>
+        <th><input type="number" id='Chemistry'></th>
+    </tr>
+    <tr>
+        <th>Sinh Học</th>
+        <th><input type="number" id='Biology'></th>
+    </tr>
+</table>
+<br>
+<button onclick="Total()">Kết Quả</button>
+<p id="tong">Tổng Điểm:</p>
+<p id="trungbinh">Điểm Trung Bình:</p>
+
+<script>
+    let a = document.getElementById('Psychology').value;
+    let b = document.getElementById('Chemistry').value;
+    let c = document.getElementById('Biology').value;
+    let sum = a+b+c
+    let average = a+b+c /3
+    function Total(){
+        // document.write('tongdiem'+sum)
+        // document.write('tongdiem'+average)
+        document.getElementById('tong').innerHTML='Tổng Điểm:'+ sum;
+        document.getElementById('trungbinh').innerHTML  ='Điểm Trung Bình:'+ average;
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
