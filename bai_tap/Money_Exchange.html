@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Money Exchange</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse
+        }
+
+        tr {
+            text-align: center;
+            font-weight: bold
+        }
+        .convert{
+            background-color: mediumpurple;
+        }
+    </style>
+</head>
+<body>
+<form action="Money_Exchange.html">
+    <table>
+        <tr>
+            <td><p>Amount</p><label><input type="number" id="amount"></label></td>
+            <td><p>From Currency</p><label><select id="from">
+                <option>VND</option>
+                <option>USD</option>
+            </select></label></td>
+            <td><p>To Currency</p><label><select id="to">
+                <option>VND</option>
+                <option>USD</option>
+            </select></label></td>
+            <td><label><input class="convert" type="button" value="Convert" onclick="convert()"> <input type="reset"
+                                                                                        value="Reset"></label></td>
+        </tr>
+    </table>
+    <p style="font-weight: bold;color: blue" id="result">Result:</p>
+</form>
+<script>
+    function convert() {
+        let a = document.getElementById("from").value;
+        let b = document.getElementById("to").value;
+        let c = document.getElementById("amount").value;
+        let d;
+        if(a === "USD" && b === "VND") {
+            d = c * 25416.4
+            document.getElementById("result").innerHTML = "Result: " + d.toLocaleString() + " " + document.getElementById("to").value
+            }else if (a === "VND" && b === "USD") {
+                d = c / 25416.4
+                document.getElementById("result").innerHTML = "Result: " + d.toLocaleString() + " " + document.getElementById("to").value
+            }else {
+                alert("Wrong Currency Choice")
+            }
+    }
+</script>
+</body>
+</html>

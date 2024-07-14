@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267f672-8285-499c-bdf6-8b879ce72370" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Money_Exchange.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai_tap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_1.html" afterDir="false" />
     </list>
@@ -23,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -34,7 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.bai_tap_1.html.executor": "Run",
+    "JavaScript Debug.Money_Exchange.html.executor": "Run",
+    "JavaScript Debug.bai_tap_1.html.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/CodeGym/Module 1/ss5_form_table/thuc_hanh/thoi_khoa_bieu.html",
@@ -46,6 +51,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="bai_tap_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bai_tap/bai_tap/bai_tap_1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.bai_tap_1.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +78,7 @@
       <updated>1720877312574</updated>
       <workItem from="1720877313628" duration="85000" />
       <workItem from="1720879146565" duration="3380000" />
-      <workItem from="1720945490237" duration="6636000" />
+      <workItem from="1720945490237" duration="14069000" />
     </task>
     <servers />
   </component>
